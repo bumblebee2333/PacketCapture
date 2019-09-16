@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.lxy.packetcapture.widget.FlowLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+
+        <TextView
+            style="@style/TextView_flag"
+            android:text="视频"/>
+
+        <TextView
+            style="@style/TextView_flag"
+            android:text="包含Cookie"/>
+
+        <TextView
+            style="@style/TextView_flag"
+            android:text="图片"/>
+
+        <TextView
+            style="@style/TextView_flag"
+            android:text="音频"/>
+
+        <TextView
+            style="@style/TextView_flag"
+            android:text="错误请求"/>
+
+        <TextView
+            style="@style/TextView_flag"
+            android:text="Json"/>
+
+    </com.lxy.packetcapture.widget.FlowLayout>
+
+</LinearLayout>

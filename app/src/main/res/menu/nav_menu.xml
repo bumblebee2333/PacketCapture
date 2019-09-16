@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"/>
+
+        <item
+            android:id="@+id/collection"
+            android:icon="@drawable/collection"
+            android:title="收藏"/>
+
+        <item
+            android:id="@+id/history"
+            android:icon="@drawable/history"
+            android:title="历史记录"/>
+
+        <item
+            android:id="@+id/manual"
+            android:icon="@drawable/manual"
+            android:title="使用手册"/>
+
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/share"
+            android:title="分享"/>
+
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/about"
+            android:title="关于"/>
+
+        <item
+            android:id="@+id/setting"
+            android:icon="@drawable/setting"
+            android:title="设置"/>
+
+</menu>
